@@ -12,7 +12,7 @@
       }
     },
     "joke.jinja2": {
-      "type": "prompt",
+      "type": "llm",
       "inputs": {
         "topic": {
           "type": [
@@ -33,6 +33,17 @@
       },
       "source": "echo.py",
       "function": "my_python_tool"
+    },
+    "Tell_joke.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "text": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "Tell_joke.jinja2"
     }
   }
 }
