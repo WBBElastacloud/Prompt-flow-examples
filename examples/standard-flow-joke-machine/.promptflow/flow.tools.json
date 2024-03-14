@@ -1,0 +1,38 @@
+{
+  "package": {},
+  "code": {
+    "hello.jinja2": {
+      "type": "prompt",
+      "inputs": {
+        "text": {
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    "joke.jinja2": {
+      "type": "prompt",
+      "inputs": {
+        "topic": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "joke.jinja2"
+    },
+    "echo.py": {
+      "type": "python",
+      "inputs": {
+        "input1": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "echo.py",
+      "function": "my_python_tool"
+    }
+  }
+}
